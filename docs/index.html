@@ -462,11 +462,11 @@ async function loadAllLayers() {
     trackData,
     proposedData,
   ] = await Promise.all([
-    safeFetch('../outputs/vectors/sirens_study_area.geojson'),
-    safeFetch('../outputs/vectors/dead_zones.geojson'),
-    safeFetch('../outputs/vectors/vulnerability_scores.geojson'),
-    safeFetch('../outputs/vectors/tornado_tracks_study.geojson'),
-    safeFetch('../outputs/vectors/proposed_sirens_n5.geojson'),
+    safeFetch('outputs/vectors/sirens_study_area.geojson'),
+    safeFetch('outputs/vectors/dead_zones.geojson'),
+    safeFetch('outputs/vectors/vulnerability_scores.geojson'),
+    safeFetch('outputs/vectors/tornado_tracks_study.geojson'),
+    safeFetch('outputs/vectors/proposed_sirens_n5.geojson'),
   ]);
 
   // ---- Siren Coverage rings ----

@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "proposed_sirens_n10",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32614" } },
+"features": [
+{ "type": "Feature", "properties": { "siren_id": "proposed_10_1", "priority": 1, "type": "proposed", "n_scenario": 10, "cost_usd": 30000 }, "geometry": { "type": "Point", "coordinates": [ 644758.008932216791436, 3925795.674954418558627 ] } },
+{ "type": "Feature", "properties": { "siren_id": "proposed_10_2", "priority": 2, "type": "proposed", "n_scenario": 10, "cost_usd": 30000 }, "geometry": { "type": "Point", "coordinates": [ 641758.008932216791436, 3922295.674954418558627 ] } },
+{ "type": "Feature", "properties": { "siren_id": "proposed_10_3", "priority": 3, "type": "proposed", "n_scenario": 10, "cost_usd": 30000 }, "geometry": { "type": "Point", "coordinates": [ 624258.008932216791436, 3931795.674954418558627 ] } },
+{ "type": "Feature", "properties": { "siren_id": "proposed_10_4", "priority": 4, "type": "proposed", "n_scenario": 10, "cost_usd": 30000 }, "geometry": { "type": "Point", "coordinates": [ 631258.008932216791436, 3937795.674954418558627 ] } },
+{ "type": "Feature", "properties": { "siren_id": "proposed_10_5", "priority": 5, "type": "proposed", "n_scenario": 10, "cost_usd": 30000 }, "geometry": { "type": "Point", "coordinates": [ 649758.008932216791436, 3924295.674954418558627 ] } },
+{ "type": "Feature", "properties": { "siren_id": "proposed_10_6", "priority": 6, "type": "proposed", "n_scenario": 10, "cost_usd": 30000 }, "geometry": { "type": "Point", "coordinates": [ 647758.008932216791436, 3927295.674954418558627 ] } },
+{ "type": "Feature", "properties": { "siren_id": "proposed_10_7", "priority": 7, "type": "proposed", "n_scenario": 10, "cost_usd": 30000 }, "geometry": { "type": "Point", "coordinates": [ 644758.008932216791436, 3923295.674954418558627 ] } },
+{ "type": "Feature", "properties": { "siren_id": "proposed_10_8", "priority": 8, "type": "proposed", "n_scenario": 10, "cost_usd": 30000 }, "geometry": { "type": "Point", "coordinates": [ 623758.008932216791436, 3929295.674954418558627 ] } },
+{ "type": "Feature", "properties": { "siren_id": "proposed_10_9", "priority": 9, "type": "proposed", "n_scenario": 10, "cost_usd": 30000 }, "geometry": { "type": "Point", "coordinates": [ 652258.008932216791436, 3922795.674954418558627 ] } },
+{ "type": "Feature", "properties": { "siren_id": "proposed_10_10", "priority": 10, "type": "proposed", "n_scenario": 10, "cost_usd": 30000 }, "geometry": { "type": "Point", "coordinates": [ 641758.008932216791436, 3925295.674954418558627 ] } }
+]
+}
