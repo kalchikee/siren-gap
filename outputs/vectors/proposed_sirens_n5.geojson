@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "proposed_sirens_n5",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32614" } },
+"features": [
+{ "type": "Feature", "properties": { "siren_id": "proposed_5_1", "priority": 1, "type": "proposed", "n_scenario": 5, "cost_usd": 30000 }, "geometry": { "type": "Point", "coordinates": [ 644758.008932216791436, 3925795.674954418558627 ] } },
+{ "type": "Feature", "properties": { "siren_id": "proposed_5_2", "priority": 2, "type": "proposed", "n_scenario": 5, "cost_usd": 30000 }, "geometry": { "type": "Point", "coordinates": [ 641758.008932216791436, 3922295.674954418558627 ] } },
+{ "type": "Feature", "properties": { "siren_id": "proposed_5_3", "priority": 3, "type": "proposed", "n_scenario": 5, "cost_usd": 30000 }, "geometry": { "type": "Point", "coordinates": [ 624258.008932216791436, 3931795.674954418558627 ] } },
+{ "type": "Feature", "properties": { "siren_id": "proposed_5_4", "priority": 4, "type": "proposed", "n_scenario": 5, "cost_usd": 30000 }, "geometry": { "type": "Point", "coordinates": [ 631258.008932216791436, 3937795.674954418558627 ] } },
+{ "type": "Feature", "properties": { "siren_id": "proposed_5_5", "priority": 5, "type": "proposed", "n_scenario": 5, "cost_usd": 30000 }, "geometry": { "type": "Point", "coordinates": [ 649758.008932216791436, 3924295.674954418558627 ] } }
+]
+}

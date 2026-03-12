@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Siren Gap – Tornado Warning Dead Zones in Oklahoma</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- Chroma.js for color scales -->
+  <script src="https://unpkg.com/chroma-js@2.4.2/chroma.min.js"></script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #1a1a2e;
+      color: #e0e0e0;
+    }
+
+    /* ---- Header ---- */
+    #header {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      z-index: 1100;
+      background: rgba(20, 20, 40, 0.92);
+      padding: 10px 18px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      border-bottom: 2px solid #e74c3c;
+    }
+    #header h1 {
+      font-size: 1.25rem;
+      color: #e74c3c;
+      letter-spacing: 1px;
+    }
+    #header p {
+      font-size: 0.78rem;
+      color: #aaa;
+      line-height: 1.3;
+    }
+
+    /* ---- Map ---- */
+    #map {
+      position: absolute;
+      top: 58px;
+      bottom: 0; left: 0; right: 0;
+    }
+
+    /* ---- Info panel (top-right) ---- */
+    #info-panel {
+      position: absolute;
+      top: 68px; right: 10px;
+      z-index: 1000;
+      background: rgba(20, 20, 40, 0.88);
+      border: 1px solid #444;
+      border-radius: 6px;
+      padding: 12px 14px;
+      min-width: 220px;
+      max-width: 260px;
+      font-size: 0.8rem;
+      line-height: 1.6;
+    }
+    #info-panel h3 {
+      color: #e74c3c;
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+      border-bottom: 1px solid #555;
+      padding-bottom: 4px;
+    }
+    #info-panel .stat-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    #info-panel .stat-val {
+      font-weight: bold;
+      color: #f39c12;
+    }
+    #info-panel .divider {
+      border-top: 1px solid #444;
+      margin: 6px 0;
+    }
+    #info-panel .note {
+      color: #888;
+      font-size: 0.72rem;
+      margin-top: 6px;
+    }
+
+    /* ---- Legend ---- */
+    #legend {
+      position: absolute;
+      bottom: 30px; right: 10px;
+      z-index: 1000;
+      background: rgba(20, 20, 40, 0.88);
+      border: 1px solid #444;
+      border-radius: 6px;
+      padding: 10px 14px;
+      font-size: 0.75rem;
+      line-height: 1.8;
+      min-width: 180px;
+    }
+    #legend h4 {
+      color: #ccc;
+      font-size: 0.82rem;
+      margin-bottom: 6px;
+      border-bottom: 1px solid #555;
+      padding-bottom: 3px;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .legend-swatch {
+      width: 18px; height: 14px;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+    .legend-circle {
+      width: 14px; height: 14px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .legend-line {
+      width: 18px; height: 3px;
+      flex-shrink: 0;
+    }
+    .legend-section {
+      margin-top: 8px;
+      color: #999;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* ---- Loading overlay ---- */
+    #loading {
+      position: absolute;
+      top: 58px; left: 0; right: 0; bottom: 0;
+      background: rgba(20, 20, 40, 0.8);
+      z-index: 2000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+    }
+    #loading p { color: #ccc; font-size: 0.9rem; }
+    .spinner {
+      width: 40px; height: 40px;
+      border: 4px solid #444;
+      border-top-color: #e74c3c;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ---- Layer control override ---- */
+    .leaflet-control-layers {
+      background: rgba(20, 20, 40, 0.9) !important;
+      border: 1px solid #555 !important;
+      color: #ddd !important;
+    }
+    .leaflet-control-layers label { color: #ddd !important; }
+    .leaflet-control-layers-separator { border-top-color: #555 !important; }
+
+    /* Popup styling */
+    .leaflet-popup-content-wrapper {
+      background: #1e1e3a;
+      color: #ddd;
+      border: 1px solid #555;
+    }
+    .leaflet-popup-tip { background: #1e1e3a; }
+    .popup-title {
+      font-weight: bold;
+      font-size: 0.9rem;
+      color: #f39c12;
+      margin-bottom: 6px;
+      border-bottom: 1px solid #444;
+      padding-bottom: 4px;
+    }
+    .popup-row { font-size: 0.8rem; margin: 2px 0; }
+    .popup-key { color: #aaa; }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<div id="header">
+  <div>
+    <h1>THE SIREN GAP</h1>
+    <p>Tornado Warning Dead Zones &nbsp;|&nbsp; Moore / Norman / Oklahoma City, OK</p>
+  </div>
+</div>
+
+<!-- Loading overlay -->
+<div id="loading">
+  <div class="spinner"></div>
+  <p>Loading analysis layers…</p>
+</div>
+
+<!-- Map -->
+<div id="map"></div>
+
+<!-- Info Panel -->
+<div id="info-panel">
+  <h3>Study Area Statistics</h3>
+  <div class="stat-row"><span>Study Counties:</span><span class="stat-val">Cleveland + Oklahoma</span></div>
+  <div class="stat-row"><span>Existing Sirens:</span><span class="stat-val" id="stat-sirens">261</span></div>
+  <div class="divider"></div>
+  <div class="stat-row"><span>Dead Zone Area:</span><span class="stat-val" id="stat-dz-area">2,236 km²</span></div>
+  <div class="stat-row"><span>Dead Zone Polygons:</span><span class="stat-val" id="stat-dz-count">486</span></div>
+  <div class="stat-row"><span>Pop. in Dead Zones:</span><span class="stat-val">246,150</span></div>
+  <div class="stat-row"><span>% of Total Pop.:</span><span class="stat-val">27.1%</span></div>
+  <div class="divider"></div>
+  <div class="stat-row"><span>Mobile Homes in DZ:</span><span class="stat-val">6,349</span></div>
+  <div class="stat-row"><span>Elderly (65+) in DZ:</span><span class="stat-val">39,407</span></div>
+  <div class="divider"></div>
+  <div class="stat-row"><span>Tornado Tracks (30 yr):</span><span class="stat-val" id="stat-tracks">126</span></div>
+  <div class="stat-row"><span>Proposed Sirens (N=5):</span><span class="stat-val" id="stat-proposed">5</span></div>
+  <div class="stat-row"><span>Coverage w/ 5 New:</span><span class="stat-val">+21.9%</span></div>
+  <p class="note">Data: W5NOR, NOAA SPC, Census ACS 2022, USGS 3DEP</p>
+</div>
+
+<!-- Legend -->
+<div id="legend">
+  <h4>Legend</h4>
+
+  <div class="legend-section">Sirens</div>
+  <div class="legend-item">
+    <div class="legend-circle" style="background:#f39c12; border:2px solid #fff;"></div>
+    <span>Existing Sirens</span>
+  </div>
+  <div class="legend-item">
+    <div class="legend-circle" style="background:rgba(41,128,185,0.25); border:2px solid #2980b9;"></div>
+    <span>70 dB Coverage Ring</span>
+  </div>
+  <div class="legend-item">
+    <div class="legend-circle" style="background:#2ecc71; border:2px solid #fff;"></div>
+    <span>Proposed Sirens (N=5)</span>
+  </div>
+
+  <div class="legend-section">Hazard</div>
+  <div class="legend-item">
+    <div class="legend-swatch" style="background:rgba(231,76,60,0.55); border:1px solid #e74c3c;"></div>
+    <span>Dead Zone (&lt;70 dB)</span>
+  </div>
+  <div class="legend-item">
+    <div class="legend-line" style="background:#9b59b6;"></div>
+    <span>Tornado Tracks</span>
+  </div>
+
+  <div class="legend-section">Vulnerability (SGVS)</div>
+  <div class="legend-item">
+    <div class="legend-swatch" style="background:#ffffcc;"></div><span>Very Low</span>
+  </div>
+  <div class="legend-item">
+    <div class="legend-swatch" style="background:#a1dab4;"></div><span>Low</span>
+  </div>
+  <div class="legend-item">
+    <div class="legend-swatch" style="background:#41b6c4;"></div><span>Moderate</span>
+  </div>
+  <div class="legend-item">
+    <div class="legend-swatch" style="background:#2c7fb8;"></div><span>High</span>
+  </div>
+  <div class="legend-item">
+    <div class="legend-swatch" style="background:#253494;"></div><span>Very High</span>
+  </div>
+</div>
+
+<script>
+// ============================================================
+// MAP INITIALISATION
+// ============================================================
+const map = L.map('map', {
+  center: [35.34, -97.49],
+  zoom: 11,
+  zoomControl: true,
+  preferCanvas: true,
+});
+
+// Basemap
+const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  maxZoom: 19,
+}).addTo(map);
+
+// Dark basemap option
+const cartoDark = L.tileLayer(
+  'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+  {
+    attribution: '© OpenStreetMap, © CARTO',
+    subdomains: 'abcd',
+    maxZoom: 19,
+  }
+);
+
+// ============================================================
+// LAYER GROUPS (empty, filled after data loads)
+// ============================================================
+const layerSirens    = L.layerGroup().addTo(map);
+const layerCoverage  = L.layerGroup().addTo(map);
+const layerDeadZones = L.layerGroup().addTo(map);
+const layerBG        = L.layerGroup().addTo(map);
+const layerTracks    = L.layerGroup().addTo(map);
+const layerProposed  = L.layerGroup().addTo(map);
+
+// ============================================================
+// COLOUR HELPERS
+// ============================================================
+const sgvsScale = chroma.scale(['#ffffcc','#a1dab4','#41b6c4','#2c7fb8','#253494'])
+                        .domain([0, 1]);
+
+function sgvsColor(val) {
+  if (val == null || isNaN(val)) return '#555555';
+  return sgvsScale(Math.min(Math.max(val, 0), 1)).hex();
+}
+
+// ============================================================
+// POPUP BUILDERS
+// ============================================================
+function sirenPopup(f) {
+  const p = f.properties;
+  return `<div class="popup-title">Existing Siren</div>
+    <div class="popup-row"><span class="popup-key">City: </span>${p.city || '—'}</div>
+    <div class="popup-row"><span class="popup-key">Address: </span>${p.description || '—'}</div>
+    <div class="popup-row"><span class="popup-key">SPL at 30m: </span>${p.spl_at_30m || 123} dB</div>
+    <div class="popup-row"><span class="popup-key">Frequency: </span>${p.frequency_hz || 500} Hz</div>`;
+}
+
+function deadZonePopup(f) {
+  const p = f.properties;
+  const km2 = p.area_km2 != null ? (+p.area_km2).toFixed(2) : '—';
+  return `<div class="popup-title">Dead Zone Polygon</div>
+    <div class="popup-row"><span class="popup-key">Area: </span>${km2} km²</div>
+    <div class="popup-row"><span class="popup-key">SPL: </span>&lt; 70 dB (inaudible)</div>`;
+}
+
+function bgPopup(f) {
+  const p = f.properties;
+  const fmt = (v, d=1) => v != null ? (+v).toFixed(d) : '—';
+  const fmtI = (v) => v != null ? Math.round(+v).toLocaleString() : '—';
+  return `<div class="popup-title">Block Group ${p.GEOID || ''}</div>
+    <div class="popup-row"><span class="popup-key">SGVS: </span>${fmt(p.SGVS, 3)}</div>
+    <div class="popup-row"><span class="popup-key">Vulnerability Class: </span>${p.vuln_class || '—'}</div>
+    <div class="popup-row"><span class="popup-key">Total Population: </span>${fmtI(p.total_pop)}</div>
+    <div class="popup-row"><span class="popup-key">Pop. in Dead Zone: </span>${fmtI(p.pop_in_dead_zone)}</div>
+    <div class="popup-row"><span class="popup-key">% Dead Zone Area: </span>${fmt(p.pct_area_dead_zone)}%</div>
+    <div class="popup-row"><span class="popup-key">% Mobile Homes: </span>${fmt(p.pct_mobile_home)}%</div>
+    <div class="popup-row"><span class="popup-key">% Elderly (65+): </span>${fmt(p.pct_elderly)}%</div>
+    <div class="popup-row"><span class="popup-key">Tornado Count: </span>${p.tornado_count || 0}</div>
+    <div class="popup-row"><span class="popup-key">Hot Spot: </span>${p.hot_spot || '—'}</div>`;
+}
+
+function trackPopup(f) {
+  const p = f.properties;
+  return `<div class="popup-title">Tornado Track</div>
+    <div class="popup-row"><span class="popup-key">Date: </span>${p.date || '—'}</div>
+    <div class="popup-row"><span class="popup-key">Magnitude (EF): </span>${p.mag !== undefined ? p.mag : '—'}</div>
+    <div class="popup-row"><span class="popup-key">Injuries: </span>${p.inj || 0}</div>
+    <div class="popup-row"><span class="popup-key">Fatalities: </span>${p.fat || 0}</div>
+    <div class="popup-row"><span class="popup-key">Length: </span>${p.len != null ? (+p.len).toFixed(1) : '—'} mi</div>
+    <div class="popup-row"><span class="popup-key">Width: </span>${p.wid || '—'} yd</div>`;
+}
+
+function proposedPopup(f) {
+  const p = f.properties;
+  return `<div class="popup-title">Proposed Siren (N=${p.n_scenario})</div>
+    <div class="popup-row"><span class="popup-key">ID: </span>${p.siren_id || '—'}</div>
+    <div class="popup-row"><span class="popup-key">Priority Rank: </span>${p.priority}</div>
+    <div class="popup-row"><span class="popup-key">Estimated Cost: </span>$${(p.cost_usd||30000).toLocaleString()}</div>
+    <div class="popup-row"><span class="popup-key">Coverage Radius: </span>1,500 m</div>`;
+}
+
+// ============================================================
+// FETCH + RENDER HELPERS
+// ============================================================
+
+// Convert UTM GeoJSON (EPSG:32614) coordinates to lat/lon.
+// Leaflet expects WGS84 [lng, lat]. The outputs might be in UTM or WGS84.
+// We use a lightweight forward-projection fallback for UTM Zone 14N.
+function utmToLatLon(easting, northing) {
+  // WGS84 UTM Zone 14N approximation (sufficient for display)
+  const k0 = 0.9996, a = 6378137.0, e2 = 0.00669437999014;
+  const e1sq = e2 / (1 - e2);
+  const x = easting - 500000;
+  const y = northing;
+  const M = y / k0;
+  const mu = M / (a * (1 - e2/4 - 3*e2*e2/64 - 5*e2*e2*e2/256));
+  const e1 = (1 - Math.sqrt(1-e2)) / (1 + Math.sqrt(1-e2));
+  const J1 = 3*e1/2 - 27*e1*e1*e1/32;
+  const J2 = 21*e1*e1/16 - 55*e1*e1*e1*e1/32;
+  const J3 = 151*e1*e1*e1/96;
+  const J4 = 1097*e1*e1*e1*e1/512;
+  const fp = mu + J1*Math.sin(2*mu) + J2*Math.sin(4*mu) + J3*Math.sin(6*mu) + J4*Math.sin(8*mu);
+  const e1p2 = e1sq * Math.cos(fp)**2;
+  const C1 = e1sq * Math.cos(fp)**2;
+  const T1 = Math.tan(fp)**2;
+  const R1 = a*(1-e2)/Math.pow(1-e2*Math.sin(fp)**2, 1.5);
+  const N1 = a/Math.sqrt(1-e2*Math.sin(fp)**2);
+  const D = x/(N1*k0);
+  const lat_r = fp - (N1*Math.tan(fp)/R1) * (D*D/2 - (5+3*T1+10*C1-4*C1*C1-9*e1sq)*D*D*D*D/24 + (61+90*T1+298*C1+45*T1*T1-252*e1sq-3*C1*C1)*D*D*D*D*D*D/720);
+  const lon_r = (D - (1+2*T1+C1)*D*D*D/6 + (5-2*C1+28*T1-3*C1*C1+8*e1sq+24*T1*T1)*D*D*D*D*D/120) / Math.cos(fp);
+  const lon0_r = -99 * Math.PI / 180;  // Zone 14N central meridian
+  return [lat_r * 180 / Math.PI, (lon0_r + lon_r) * 180 / Math.PI];
+}
+
+function transformCoord(coord) {
+  // Detect UTM by large easting values (> 180 is not valid lon)
+  if (Math.abs(coord[0]) > 180) {
+    const [lat, lon] = utmToLatLon(coord[0], coord[1]);
+    return [lon, lat];
+  }
+  return coord;
+}
+
+function transformGeometry(geom) {
+  if (!geom) return geom;
+  function tx(coords) {
+    if (!Array.isArray(coords)) return coords;
+    if (typeof coords[0] === 'number') return transformCoord(coords);
+    return coords.map(tx);
+  }
+  return Object.assign({}, geom, { coordinates: tx(geom.coordinates) });
+}
+
+function transformGeoJSON(gj) {
+  if (!gj || !gj.features) return gj;
+  return Object.assign({}, gj, {
+    features: gj.features.map(f =>
+      Object.assign({}, f, { geometry: transformGeometry(f.geometry) })
+    )
+  });
+}
+
+// Safe fetch – resolves to null on 404 / network error
+async function safeFetch(url) {
+  try {
+    const resp = await fetch(url);
+    if (!resp.ok) { console.warn('Layer not found:', url); return null; }
+    return await resp.json();
+  } catch(e) {
+    console.warn('Could not load:', url, e.message);
+    return null;
+  }
+}
+
+// ============================================================
+// LOAD ALL LAYERS
+// ============================================================
+async function loadAllLayers() {
+  // Paths relative to web/index.html
+  const [
+    sirenData,
+    deadZoneData,
+    bgData,
+    trackData,
+    proposedData,
+  ] = await Promise.all([
+    safeFetch('../outputs/vectors/sirens_study_area.geojson'),
+    safeFetch('../outputs/vectors/dead_zones.geojson'),
+    safeFetch('../outputs/vectors/vulnerability_scores.geojson'),
+    safeFetch('../outputs/vectors/tornado_tracks_study.geojson'),
+    safeFetch('../outputs/vectors/proposed_sirens_n5.geojson'),
+  ]);
+
+  // ---- Siren Coverage rings ----
+  if (sirenData) {
+    const data = transformGeoJSON(sirenData);
+    data.features.forEach(f => {
+      const [lng, lat] = f.geometry.coordinates;
+      L.circle([lat, lng], {
+        radius: 1500,
+        color: '#2980b9',
+        fillColor: '#2980b9',
+        fillOpacity: 0.08,
+        weight: 1.2,
+        dashArray: '4 3',
+        interactive: false,
+      }).addTo(layerCoverage);
+    });
+  }
+
+  // ---- Existing sirens ----
+  if (sirenData) {
+    const data = transformGeoJSON(sirenData);
+    let count = 0;
+    data.features.forEach(f => {
+      const [lng, lat] = f.geometry.coordinates;
+      const marker = L.circleMarker([lat, lng], {
+        radius: 7,
+        color: '#fff',
+        fillColor: '#f39c12',
+        fillOpacity: 0.9,
+        weight: 1.5,
+      }).addTo(layerSirens);
+      marker.bindPopup(sirenPopup(f));
+      count++;
+    });
+    document.getElementById('stat-sirens').textContent = count.toLocaleString();
+  }
+
+  // ---- Dead zones ----
+  if (deadZoneData) {
+    const data = transformGeoJSON(deadZoneData);
+    let totalAreaKm2 = 0;
+    L.geoJSON(data, {
+      style: {
+        color: '#e74c3c',
+        fillColor: '#e74c3c',
+        fillOpacity: 0.45,
+        weight: 1.5,
+      },
+      onEachFeature: (f, layer) => {
+        if (f.properties && f.properties.area_km2)
+          totalAreaKm2 += +f.properties.area_km2;
+        layer.bindPopup(deadZonePopup(f));
+        layer.on('mouseover', () => layer.setStyle({ fillOpacity: 0.65 }));
+        layer.on('mouseout',  () => layer.setStyle({ fillOpacity: 0.45 }));
+      }
+    }).addTo(layerDeadZones);
+    document.getElementById('stat-dz-count').textContent = data.features.length.toLocaleString();
+    document.getElementById('stat-dz-area').textContent =
+      totalAreaKm2 > 0 ? totalAreaKm2.toFixed(1) + ' km²' : data.features.length + ' polys';
+  }
+
+  // ---- Block groups (SGVS choropleth) ----
+  if (bgData) {
+    const data = transformGeoJSON(bgData);
+    L.geoJSON(data, {
+      style: f => ({
+        color: '#333',
+        fillColor: sgvsColor(f.properties.SGVS),
+        fillOpacity: 0.55,
+        weight: 0.6,
+      }),
+      onEachFeature: (f, layer) => {
+        layer.bindPopup(bgPopup(f));
+        const origStyle = {
+          color: '#333',
+          fillColor: sgvsColor(f.properties.SGVS),
+          fillOpacity: 0.55,
+          weight: 0.6,
+        };
+        layer.on('mouseover', () => layer.setStyle({ ...origStyle, weight: 2, fillOpacity: 0.75 }));
+        layer.on('mouseout',  () => layer.setStyle(origStyle));
+      }
+    }).addTo(layerBG);
+  }
+
+  // ---- Tornado tracks ----
+  if (trackData) {
+    const data = transformGeoJSON(trackData);
+    L.geoJSON(data, {
+      style: f => {
+        const mag = f.properties.mag || 0;
+        const weight = Math.max(1, Math.min(mag + 1, 5));
+        return {
+          color: '#9b59b6',
+          weight: weight,
+          opacity: 0.75,
+        };
+      },
+      onEachFeature: (f, layer) => {
+        layer.bindPopup(trackPopup(f));
+      }
+    }).addTo(layerTracks);
+    document.getElementById('stat-tracks').textContent = data.features.length.toLocaleString();
+  }
+
+  // ---- Proposed sirens N=5 ----
+  if (proposedData) {
+    const data = transformGeoJSON(proposedData);
+    data.features.forEach((f, i) => {
+      const [lng, lat] = f.geometry.coordinates;
+      // Star icon via DivIcon
+      const icon = L.divIcon({
+        html: `<div style="
+          width:22px; height:22px; line-height:22px;
+          text-align:center; font-size:16px;
+          color:#2ecc71; text-shadow:0 0 4px #000;
+        ">★</div>`,
+        iconSize: [22, 22],
+        iconAnchor: [11, 11],
+        className: '',
+      });
+      const marker = L.marker([lat, lng], { icon })
+        .addTo(layerProposed);
+      marker.bindPopup(proposedPopup(f));
+
+      // Coverage ring for proposed
+      L.circle([lat, lng], {
+        radius: 1500,
+        color: '#2ecc71',
+        fillColor: '#2ecc71',
+        fillOpacity: 0.06,
+        weight: 1,
+        dashArray: '6 3',
+        interactive: false,
+      }).addTo(layerProposed);
+    });
+    document.getElementById('stat-proposed').textContent = data.features.length;
+  }
+
+  // ---- Layer Control ----
+  const baseMaps = {
+    'OpenStreetMap': osm,
+    'Dark Basemap':  cartoDark,
+  };
+  const overlays = {
+    '🔊 Siren Coverage (70 dB ring)': layerCoverage,
+    '🔴 Dead Zones (&lt;70 dB)':     layerDeadZones,
+    '🟡 Existing Sirens':             layerSirens,
+    '🟢 Proposed Sirens (N=5)':       layerProposed,
+    '🟦 Block Groups (SGVS)':         layerBG,
+    '🟣 Tornado Tracks (1993-2023)':  layerTracks,
+  };
+
+  L.control.layers(baseMaps, overlays, { position: 'topleft', collapsed: false })
+    .addTo(map);
+
+  // Hide loading overlay
+  document.getElementById('loading').style.display = 'none';
+}
+
+// ---- Boot ----
+map.whenReady(() => {
+  loadAllLayers().catch(err => {
+    console.error('Layer loading error:', err);
+    document.getElementById('loading').style.display = 'none';
+  });
+});
+
+</script>
+</body>
+</html>

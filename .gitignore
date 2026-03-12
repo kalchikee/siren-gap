@@ -1,0 +1,24 @@
+# Large raw data files - not tracked in git
+data/raw/dem/
+data/raw/nlcd/nlcd_2021_ok.tif
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/

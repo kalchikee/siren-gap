@@ -1,0 +1,5105 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59975,
+          35.363226
+        ]
+      },
+      "properties": {
+        "id": "o001",
+        "city": "Oklahoma City",
+        "description": "4460 SW 104th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.636356,
+          35.415565
+        ]
+      },
+      "properties": {
+        "id": "o002",
+        "city": "Oklahoma City",
+        "description": "4926 S Rockwell St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.663093,
+          35.434974
+        ]
+      },
+      "properties": {
+        "id": "o003",
+        "city": "Oklahoma City",
+        "description": "SW 29th and S Eagle Ln",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.637472,
+          35.434974
+        ]
+      },
+      "properties": {
+        "id": "o004",
+        "city": "Oklahoma City",
+        "description": "7126 SW 29th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.720755,
+          35.464237
+        ]
+      },
+      "properties": {
+        "id": "o005",
+        "city": "Oklahoma City",
+        "description": "11170 W Reno Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.636399,
+          35.464939
+        ]
+      },
+      "properties": {
+        "id": "o006",
+        "city": "Oklahoma City",
+        "description": "76 N Rockwell Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.49001,
+          35.377381
+        ]
+      },
+      "properties": {
+        "id": "o007",
+        "city": "Oklahoma City",
+        "description": "1250 SE 89th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.742526,
+          35.436578
+        ]
+      },
+      "properties": {
+        "id": "o008",
+        "city": "Oklahoma City",
+        "description": "1866 S Czech Hall Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71495,
+          35.420763
+        ]
+      },
+      "properties": {
+        "id": "o009",
+        "city": "Oklahoma City",
+        "description": "10972 SW 44th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.653544,
+          35.361161
+        ]
+      },
+      "properties": {
+        "id": "o010",
+        "city": "Oklahoma City",
+        "description": "10726 S Council Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.581513,
+          35.348611
+        ]
+      },
+      "properties": {
+        "id": "o011",
+        "city": "Oklahoma City",
+        "description": "3646 SW 119th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.265018,
+          35.388064
+        ]
+      },
+      "properties": {
+        "id": "o012",
+        "city": "Oklahoma City",
+        "description": "7492 S Choctaw Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.694354,
+          35.449501
+        ]
+      },
+      "properties": {
+        "id": "o013",
+        "city": "Oklahoma City",
+        "description": "10022 SW 15th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.760122,
+          35.420116
+        ]
+      },
+      "properties": {
+        "id": "o014",
+        "city": "Oklahoma City",
+        "description": "4555 S Cemetery Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.777693,
+          35.435796
+        ]
+      },
+      "properties": {
+        "id": "o015",
+        "city": "Oklahoma City",
+        "description": "SW 29th and Frisco St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76831,
+          35.4642
+        ]
+      },
+      "properties": {
+        "id": "o016",
+        "city": "Oklahoma City",
+        "description": "13360 W Reno Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.796162,
+          35.478941
+        ]
+      },
+      "properties": {
+        "id": "o017",
+        "city": "Oklahoma City",
+        "description": "14806 NW 10th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.727895,
+          35.594092
+        ]
+      },
+      "properties": {
+        "id": "o018",
+        "city": "Oklahoma City",
+        "description": "NW 122nd St and Mustang Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.744916,
+          35.609371
+        ]
+      },
+      "properties": {
+        "id": "o019",
+        "city": "Oklahoma City",
+        "description": "Piedmont Rd and Memorial Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.774994,
+          35.609066
+        ]
+      },
+      "properties": {
+        "id": "o020",
+        "city": "Oklahoma City",
+        "description": "13566 W Memorial Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.762772,
+          35.564904
+        ]
+      },
+      "properties": {
+        "id": "o021",
+        "city": "Oklahoma City",
+        "description": "9230 Cemetery Rd N",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.478031,
+          35.552058
+        ]
+      },
+      "properties": {
+        "id": "o022",
+        "city": "Oklahoma City",
+        "description": "8002 Eastern Pl",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.695719,
+          35.551011
+        ]
+      },
+      "properties": {
+        "id": "o023",
+        "city": "Oklahoma City",
+        "description": "9996 W Wilshire Blvd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.709337,
+          35.602037
+        ]
+      },
+      "properties": {
+        "id": "o024",
+        "city": "Oklahoma City",
+        "description": "12875 Sara Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.601863,
+          35.623551
+        ]
+      },
+      "properties": {
+        "id": "o025",
+        "city": "Oklahoma City",
+        "description": "4450 NW 150th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.479152,
+          35.580202
+        ]
+      },
+      "properties": {
+        "id": "o026",
+        "city": "Oklahoma City",
+        "description": "1960 NE 108th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.670984,
+          35.624002
+        ]
+      },
+      "properties": {
+        "id": "o027",
+        "city": "Oklahoma City",
+        "description": "8846 NW 150th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.56686,
+          35.621128
+        ]
+      },
+      "properties": {
+        "id": "o028",
+        "city": "Oklahoma City",
+        "description": "14600 N May Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.635418,
+          35.623553
+        ]
+      },
+      "properties": {
+        "id": "o029",
+        "city": "Oklahoma City",
+        "description": "6878 NW 150th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.703731,
+          35.507878
+        ]
+      },
+      "properties": {
+        "id": "o030",
+        "city": "Oklahoma City",
+        "description": "Lakeshore Dr East of Sara Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.709109,
+          35.623797
+        ]
+      },
+      "properties": {
+        "id": "o031",
+        "city": "Oklahoma City",
+        "description": "10580 NW 150th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.458521,
+          35.565476
+        ]
+      },
+      "properties": {
+        "id": "o032",
+        "city": "Oklahoma City",
+        "description": "3142 Britton Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.407483,
+          35.565719
+        ]
+      },
+      "properties": {
+        "id": "o033",
+        "city": "Oklahoma City",
+        "description": "Britton and Air Depot",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.442698,
+          35.591689
+        ]
+      },
+      "properties": {
+        "id": "o034",
+        "city": "Oklahoma City",
+        "description": "12022 N Coltrane Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.418494,
+          35.580058
+        ]
+      },
+      "properties": {
+        "id": "o035",
+        "city": "Oklahoma City",
+        "description": "6108 NE 108th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.398509,
+          35.594646
+        ]
+      },
+      "properties": {
+        "id": "o036",
+        "city": "Oklahoma City",
+        "description": "8015 NE 122nd St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.371515,
+          35.604414
+        ]
+      },
+      "properties": {
+        "id": "o037",
+        "city": "Oklahoma City",
+        "description": "13282 N Douglas Blvd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.376496,
+          35.580206
+        ]
+      },
+      "properties": {
+        "id": "o038",
+        "city": "Oklahoma City",
+        "description": "8836 NE 108th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.336791,
+          35.580283
+        ]
+      },
+      "properties": {
+        "id": "o039",
+        "city": "Oklahoma City",
+        "description": "10946 NE 108th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.336963,
+          35.608981
+        ]
+      },
+      "properties": {
+        "id": "o040",
+        "city": "Oklahoma City",
+        "description": "10946 E Memorial Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.353075,
+          35.550291
+        ]
+      },
+      "properties": {
+        "id": "o041",
+        "city": "Oklahoma City",
+        "description": "7706 N Post Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.318056,
+          35.549435
+        ]
+      },
+      "properties": {
+        "id": "o042",
+        "city": "Oklahoma City",
+        "description": "7664 N Anderson Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.35308,
+          35.391324
+        ]
+      },
+      "properties": {
+        "id": "o043",
+        "city": "Oklahoma City",
+        "description": "7548 S Post Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.318598,
+          35.39587
+        ]
+      },
+      "properties": {
+        "id": "o044",
+        "city": "Oklahoma City",
+        "description": "7000 S Anderson Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.247256,
+          35.405262
+        ]
+      },
+      "properties": {
+        "id": "o045",
+        "city": "Oklahoma City",
+        "description": "SE 59th and Indian Meridian",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.35046,
+          35.420741
+        ]
+      },
+      "properties": {
+        "id": "o046",
+        "city": "Oklahoma City",
+        "description": "10122 SE 44th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.282729,
+          35.420586
+        ]
+      },
+      "properties": {
+        "id": "o047",
+        "city": "Oklahoma City",
+        "description": "4524 S Henney Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.199736,
+          35.406135
+        ]
+      },
+      "properties": {
+        "id": "o048",
+        "city": "Oklahoma City",
+        "description": "18674 SE 59th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.171664,
+          35.377123
+        ]
+      },
+      "properties": {
+        "id": "o049",
+        "city": "Oklahoma City",
+        "description": "20002 SE 89th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.195138,
+          35.374656
+        ]
+      },
+      "properties": {
+        "id": "o050",
+        "city": "Oklahoma City",
+        "description": "9604 S Luther Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.230501,
+          35.387672
+        ]
+      },
+      "properties": {
+        "id": "o051",
+        "city": "Oklahoma City",
+        "description": "7746 S Triple X Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.159899,
+          35.350858
+        ]
+      },
+      "properties": {
+        "id": "o052",
+        "city": "Oklahoma City",
+        "description": "11962 S Harrah Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.195074,
+          35.355181
+        ]
+      },
+      "properties": {
+        "id": "o053",
+        "city": "Oklahoma City",
+        "description": "11830 S Luther Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.159519,
+          35.317121
+        ]
+      },
+      "properties": {
+        "id": "o054",
+        "city": "Oklahoma City",
+        "description": "15060 192nd Ave NE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.266539,
+          35.333792
+        ]
+      },
+      "properties": {
+        "id": "o055",
+        "city": "Oklahoma City",
+        "description": "14898 SE 134th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.195219,
+          35.319091
+        ]
+      },
+      "properties": {
+        "id": "o056",
+        "city": "Oklahoma City",
+        "description": "E Stella Rd and S Luther Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.318102,
+          35.335265
+        ]
+      },
+      "properties": {
+        "id": "o057",
+        "city": "Oklahoma City",
+        "description": "13454 S Anderson Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.30045,
+          35.362964
+        ]
+      },
+      "properties": {
+        "id": "o058",
+        "city": "Oklahoma City",
+        "description": "12976 SE 104th St (near Hiwasse Rd)",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.333178,
+          35.362861
+        ]
+      },
+      "properties": {
+        "id": "o059",
+        "city": "Oklahoma City",
+        "description": "10418 E Lake Stanley Draper Dr (near SE 104th St)",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.370563,
+          35.348537
+        ]
+      },
+      "properties": {
+        "id": "o060",
+        "city": "Oklahoma City",
+        "description": "SE 119th St and E Stanley Draper Dr",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.423735,
+          35.320214
+        ]
+      },
+      "properties": {
+        "id": "o061",
+        "city": "Oklahoma City",
+        "description": "Sooner Rd and SE 149th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.427756,
+          35.341096
+        ]
+      },
+      "properties": {
+        "id": "o062",
+        "city": "Oklahoma City",
+        "description": "Sooner Rd N of SE 149th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.654169,
+          35.485281
+        ]
+      },
+      "properties": {
+        "id": "o063",
+        "city": "Oklahoma City",
+        "description": "1668 N Council Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.795256,
+          35.406751
+        ]
+      },
+      "properties": {
+        "id": "o064",
+        "city": "Oklahoma City",
+        "description": "Richland and 59th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.688863,
+          35.361861
+        ]
+      },
+      "properties": {
+        "id": "o065",
+        "city": "Oklahoma City",
+        "description": "Morgan and 104th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.813227,
+          35.389649
+        ]
+      },
+      "properties": {
+        "id": "o066",
+        "city": "Oklahoma City",
+        "description": "Cimmaron and 74th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.813071,
+          35.365741
+        ]
+      },
+      "properties": {
+        "id": "o067",
+        "city": "Oklahoma City",
+        "description": "Cimmaron and 104th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.786152,
+          35.362736
+        ]
+      },
+      "properties": {
+        "id": "o068",
+        "city": "Oklahoma City",
+        "description": "104th and Reimets",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.747781,
+          35.362942
+        ]
+      },
+      "properties": {
+        "id": "o069",
+        "city": "Oklahoma City",
+        "description": "104th and Czech Hall",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.685679,
+          35.420558
+        ]
+      },
+      "properties": {
+        "id": "o070",
+        "city": "Oklahoma City",
+        "description": "SW 44th and Morgan",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.459089,
+          35.37615
+        ]
+      },
+      "properties": {
+        "id": "o071",
+        "city": "Oklahoma City",
+        "description": "SW 89th and Bryant",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.441521,
+          35.359569
+        ]
+      },
+      "properties": {
+        "id": "o072",
+        "city": "Oklahoma City",
+        "description": "SW 104th and Sunnylane",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.391664,
+          35.308844
+        ]
+      },
+      "properties": {
+        "id": "o073",
+        "city": "Oklahoma City",
+        "description": "SE 160th and Midwest",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.405933,
+          35.363132
+        ]
+      },
+      "properties": {
+        "id": "o074",
+        "city": "Oklahoma City",
+        "description": "5960 SE 104th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.538424,
+          35.305162
+        ]
+      },
+      "properties": {
+        "id": "o075",
+        "city": "Oklahoma City",
+        "description": "SW 164th and John 14",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.605978,
+          35.42753
+        ]
+      },
+      "properties": {
+        "id": "o076",
+        "city": "Oklahoma City",
+        "description": "SW 36th and Thomas",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.706695,
+          35.484399
+        ]
+      },
+      "properties": {
+        "id": "o077",
+        "city": "Oklahoma City",
+        "description": "Sara and NW 15th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.689207,
+          35.537823
+        ]
+      },
+      "properties": {
+        "id": "o078",
+        "city": "Oklahoma City",
+        "description": "NW 63rd and Morgan",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.663412,
+          35.406091
+        ]
+      },
+      "properties": {
+        "id": "o079",
+        "city": "Oklahoma City",
+        "description": "59th and 152",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.564578,
+          35.638424
+        ]
+      },
+      "properties": {
+        "id": "o080",
+        "city": "Oklahoma City",
+        "description": "NW 164th and May",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.673832,
+          35.594923
+        ]
+      },
+      "properties": {
+        "id": "o081",
+        "city": "Oklahoma City",
+        "description": "NW122nd and County Line",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.353096,
+          35.312221
+        ]
+      },
+      "properties": {
+        "id": "o082",
+        "city": "Oklahoma City",
+        "description": "Post and SE 160th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.504869,
+          35.554695
+        ]
+      },
+      "properties": {
+        "id": "o083",
+        "city": "Oklahoma City",
+        "description": "82nd near Britton",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.422627,
+          35.377421
+        ]
+      },
+      "properties": {
+        "id": "o084",
+        "city": "Oklahoma City",
+        "description": "SE 89th and Sooner",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.266619,
+          35.362903
+        ]
+      },
+      "properties": {
+        "id": "o085",
+        "city": "Oklahoma City",
+        "description": "SE 104th and Choctaw",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.412939,
+          35.522351
+        ]
+      },
+      "properties": {
+        "id": "o086",
+        "city": "Oklahoma City",
+        "description": "NE 50th and Cedar Ridge",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.303631,
+          35.608955
+        ]
+      },
+      "properties": {
+        "id": "o087",
+        "city": "Oklahoma City",
+        "description": "Memorial and Hiwassee",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.236391,
+          35.63368
+        ]
+      },
+      "properties": {
+        "id": "o088",
+        "city": "Oklahoma City",
+        "description": "Hog Back Rd near",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.657774,
+          35.4619
+        ]
+      },
+      "properties": {
+        "id": "o089",
+        "city": "Oklahoma City",
+        "description": "Markwell and SW 3rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.604379,
+          35.443886
+        ]
+      },
+      "properties": {
+        "id": "o090",
+        "city": "Oklahoma City",
+        "description": "Nicklas and 20th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.230439,
+          35.35753
+        ]
+      },
+      "properties": {
+        "id": "o091",
+        "city": "Oklahoma City",
+        "description": "XXX Road and David Lane",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2561,
+          35.580202
+        ]
+      },
+      "properties": {
+        "id": "o092",
+        "city": "Oklahoma City",
+        "description": "Hefner and Indian Meridian",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.248058,
+          35.609162
+        ]
+      },
+      "properties": {
+        "id": "o093",
+        "city": "Oklahoma City",
+        "description": "Memorial and Indian Meridian",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.247114,
+          35.657471
+        ]
+      },
+      "properties": {
+        "id": "o094",
+        "city": "Oklahoma City",
+        "description": "US 66 and Indian Meridian",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.225249,
+          35.652502
+        ]
+      },
+      "properties": {
+        "id": "o095",
+        "city": "Oklahoma City",
+        "description": "NE 178th and Indian Meridian",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26531,
+          35.620814
+        ]
+      },
+      "properties": {
+        "id": "o096",
+        "city": "Oklahoma City",
+        "description": "Choctaw and 150th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.304334,
+          35.522086
+        ]
+      },
+      "properties": {
+        "id": "o097",
+        "city": "Oklahoma City",
+        "description": "NE 50th and Hiwassee",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.388649,
+          35.535998
+        ]
+      },
+      "properties": {
+        "id": "o098",
+        "city": "Oklahoma City",
+        "description": "NE 63rd and Midwest",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.566171,
+          35.337943
+        ]
+      },
+      "properties": {
+        "id": "o099",
+        "city": "Oklahoma City",
+        "description": "May and 131st",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.653871,
+          35.384766
+        ]
+      },
+      "properties": {
+        "id": "o100",
+        "city": "Oklahoma City",
+        "description": "Council and 74th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.620104,
+          35.348265
+        ]
+      },
+      "properties": {
+        "id": "o101",
+        "city": "Oklahoma City",
+        "description": "SW 119th and MacArthur",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.520952,
+          35.360811
+        ]
+      },
+      "properties": {
+        "id": "o102",
+        "city": "Oklahoma City",
+        "description": "Walker and SW 104th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.519659,
+          35.468617
+        ]
+      },
+      "properties": {
+        "id": "o103",
+        "city": "Oklahoma City",
+        "description": "Park and Hudson",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.470389,
+          35.433836
+        ]
+      },
+      "properties": {
+        "id": "o104",
+        "city": "Oklahoma City",
+        "description": "SW 29th and Trosper",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.598891,
+          35.405947
+        ]
+      },
+      "properties": {
+        "id": "o105",
+        "city": "Oklahoma City",
+        "description": "Terminal Dr and Amelia Earhart Dr",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.578737,
+          35.427126
+        ]
+      },
+      "properties": {
+        "id": "o106",
+        "city": "Oklahoma City",
+        "description": "3832 S Goff Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.391412,
+          35.389496
+        ]
+      },
+      "properties": {
+        "id": "o107",
+        "city": "Oklahoma City",
+        "description": "7834 SE 74th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.583165,
+          35.462767
+        ]
+      },
+      "properties": {
+        "id": "o108",
+        "city": "Oklahoma City",
+        "description": "202 S Portland Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.512261,
+          35.376021
+        ]
+      },
+      "properties": {
+        "id": "o109",
+        "city": "Oklahoma City",
+        "description": "9098 S Santa Fe Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.565278,
+          35.363449
+        ]
+      },
+      "properties": {
+        "id": "o110",
+        "city": "Oklahoma City",
+        "description": "10468 S May Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.60991,
+          35.46891
+        ]
+      },
+      "properties": {
+        "id": "o111",
+        "city": "Oklahoma City",
+        "description": "398 N Ann Arbor Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.585241,
+          35.479063
+        ]
+      },
+      "properties": {
+        "id": "o112",
+        "city": "Oklahoma City",
+        "description": "1106 N Quapah Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.576055,
+          35.448898
+        ]
+      },
+      "properties": {
+        "id": "o113",
+        "city": "Oklahoma City",
+        "description": "3340 SW 15th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.547505,
+          35.435765
+        ]
+      },
+      "properties": {
+        "id": "o114",
+        "city": "Oklahoma City",
+        "description": "2940 S Brock Dr",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.538949,
+          35.398948
+        ]
+      },
+      "properties": {
+        "id": "o115",
+        "city": "Oklahoma City",
+        "description": "66th St and S Blackwelder Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.512307,
+          35.397059
+        ]
+      },
+      "properties": {
+        "id": "o116",
+        "city": "Oklahoma City",
+        "description": "7074 S Santa Fe Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.483478,
+          35.396012
+        ]
+      },
+      "properties": {
+        "id": "o117",
+        "city": "Oklahoma City",
+        "description": "6926 Camille Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.483867,
+          35.414402
+        ]
+      },
+      "properties": {
+        "id": "o118",
+        "city": "Oklahoma City",
+        "description": "5186 S Rhode Island Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.498786,
+          35.477051
+        ]
+      },
+      "properties": {
+        "id": "o119",
+        "city": "Oklahoma City",
+        "description": "Phillips Ave between 8th and 10th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.563636,
+          35.391744
+        ]
+      },
+      "properties": {
+        "id": "o120",
+        "city": "Oklahoma City",
+        "description": "2824 SW 74th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.538327,
+          35.611146
+        ]
+      },
+      "properties": {
+        "id": "o121",
+        "city": "Oklahoma City",
+        "description": "13856 Pawnee Dr",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.513661,
+          35.609646
+        ]
+      },
+      "properties": {
+        "id": "o122",
+        "city": "Oklahoma City",
+        "description": "13744 N Santa Fe Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.531707,
+          35.63751
+        ]
+      },
+      "properties": {
+        "id": "o123",
+        "city": "Oklahoma City",
+        "description": "16340 N Western Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.531613,
+          35.659816
+        ]
+      },
+      "properties": {
+        "id": "o124",
+        "city": "Oklahoma City",
+        "description": "18672 N Western Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.637201,
+          35.594753
+        ]
+      },
+      "properties": {
+        "id": "o125",
+        "city": "Oklahoma City",
+        "description": "6968 NW 122nd St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.587551,
+          35.594506
+        ]
+      },
+      "properties": {
+        "id": "o126",
+        "city": "Oklahoma City",
+        "description": "State Highway 74 and NW 122nd St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.651302,
+          35.565554
+        ]
+      },
+      "properties": {
+        "id": "o127",
+        "city": "Oklahoma City",
+        "description": "7773 NW 93rd St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.673926,
+          35.567343
+        ]
+      },
+      "properties": {
+        "id": "o128",
+        "city": "Oklahoma City",
+        "description": "9654 N County Line Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.597824,
+          35.549433
+        ]
+      },
+      "properties": {
+        "id": "o129",
+        "city": "Oklahoma City",
+        "description": "NE of Meridian and NW Expwy. on Lake Hefner",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.63376,
+          35.551203
+        ]
+      },
+      "properties": {
+        "id": "o130",
+        "city": "Oklahoma City",
+        "description": "6900 W Wilshire Blvd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.619971,
+          35.580008
+        ]
+      },
+      "properties": {
+        "id": "o131",
+        "city": "Oklahoma City",
+        "description": "5834 W Hefner Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.564991,
+          35.595353
+        ]
+      },
+      "properties": {
+        "id": "o132",
+        "city": "Oklahoma City",
+        "description": "NW of NW 122nd and Trail Oaks Dr",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.534489,
+          35.594683
+        ]
+      },
+      "properties": {
+        "id": "o133",
+        "city": "Oklahoma City",
+        "description": "1412 NW 122nd St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.558653,
+          35.519624
+        ]
+      },
+      "properties": {
+        "id": "o134",
+        "city": "Oklahoma City",
+        "description": "4872 N Linn Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.585129,
+          35.52284
+        ]
+      },
+      "properties": {
+        "id": "o135",
+        "city": "Oklahoma City",
+        "description": "3770 NW 51st St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.601375,
+          35.533433
+        ]
+      },
+      "properties": {
+        "id": "o136",
+        "city": "Oklahoma City",
+        "description": "4508 NW 60th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.576216,
+          35.500596
+        ]
+      },
+      "properties": {
+        "id": "o137",
+        "city": "Oklahoma City",
+        "description": "3392 NW 30th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.543568,
+          35.497323
+        ]
+      },
+      "properties": {
+        "id": "o138",
+        "city": "Oklahoma City",
+        "description": "1878 NW 27th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.743851,
+          35.464283
+        ]
+      },
+      "properties": {
+        "id": "o139",
+        "city": "Oklahoma City",
+        "description": "Reno and Czech Hall",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.527239,
+          35.543582
+        ]
+      },
+      "properties": {
+        "id": "o140",
+        "city": "Oklahoma City",
+        "description": "7149 N Classen Blvd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.45869,
+          35.609035
+        ]
+      },
+      "properties": {
+        "id": "o141",
+        "city": "Oklahoma City",
+        "description": "3118 E Memorial Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.464609,
+          35.461175
+        ]
+      },
+      "properties": {
+        "id": "o142",
+        "city": "Oklahoma City",
+        "description": "436 S Eckroat St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.505969,
+          35.464589
+        ]
+      },
+      "properties": {
+        "id": "o143",
+        "city": "Oklahoma City",
+        "description": "162 S Stiles Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.516357,
+          35.445422
+        ]
+      },
+      "properties": {
+        "id": "o144",
+        "city": "Oklahoma City",
+        "description": "Robinson and SW 17th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.492542,
+          35.446363
+        ]
+      },
+      "properties": {
+        "id": "o145",
+        "city": "Oklahoma City",
+        "description": "Carter Dr and Everest Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.499065,
+          35.425876
+        ]
+      },
+      "properties": {
+        "id": "o146",
+        "city": "Oklahoma City",
+        "description": "SW 30th and Hathaway",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.532367,
+          35.420378
+        ]
+      },
+      "properties": {
+        "id": "o147",
+        "city": "Oklahoma City",
+        "description": "SW 44th and Western",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.556692,
+          35.41343
+        ]
+      },
+      "properties": {
+        "id": "o148",
+        "city": "Oklahoma City",
+        "description": "Villa and 51st",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.451279,
+          35.406493
+        ]
+      },
+      "properties": {
+        "id": "o149",
+        "city": "Oklahoma City",
+        "description": "SW 59th and Shalimar",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.529739,
+          35.336991
+        ]
+      },
+      "properties": {
+        "id": "o150",
+        "city": "Oklahoma City",
+        "description": "SW 134th and Western",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.541787,
+          35.356329
+        ]
+      },
+      "properties": {
+        "id": "o151",
+        "city": "Oklahoma City",
+        "description": "Kingsridge and Kingsgate",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.542785,
+          35.377856
+        ]
+      },
+      "properties": {
+        "id": "o152",
+        "city": "Oklahoma City",
+        "description": "SW 89th and Kentucky",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.663227,
+          35.551188
+        ]
+      },
+      "properties": {
+        "id": "o153",
+        "city": "Oklahoma City",
+        "description": "Wilshire and McKee",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.527303,
+          35.56665
+        ]
+      },
+      "properties": {
+        "id": "o154",
+        "city": "Oklahoma City",
+        "description": "Classen and 94th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.534601,
+          35.51938
+        ]
+      },
+      "properties": {
+        "id": "o155",
+        "city": "Oklahoma City",
+        "description": "NW 47th and Classen",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.507052,
+          35.536928
+        ]
+      },
+      "properties": {
+        "id": "o156",
+        "city": "Oklahoma City",
+        "description": "NW 63rd and Wildwood",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.573904,
+          35.544621
+        ]
+      },
+      "properties": {
+        "id": "o157",
+        "city": "Oklahoma City",
+        "description": "Grand Dr and Lake Hefner Dr",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.556528,
+          35.474775
+        ]
+      },
+      "properties": {
+        "id": "o158",
+        "city": "Oklahoma City",
+        "description": "General Pershing Blvd and Villa Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52557,
+          35.475793
+        ]
+      },
+      "properties": {
+        "id": "o159",
+        "city": "Oklahoma City",
+        "description": "NW 8th and Shartel",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.547323,
+          35.454639
+        ]
+      },
+      "properties": {
+        "id": "o160",
+        "city": "Oklahoma City",
+        "description": "Penn and SW 10th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.476127,
+          35.525753
+        ]
+      },
+      "properties": {
+        "id": "o161",
+        "city": "Oklahoma City",
+        "description": "Martin Luther King Ave and Remington Pl",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.474928,
+          35.509414
+        ]
+      },
+      "properties": {
+        "id": "o162",
+        "city": "Oklahoma City",
+        "description": "NE 37th and Army",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47135,
+          35.487826
+        ]
+      },
+      "properties": {
+        "id": "o163",
+        "city": "Oklahoma City",
+        "description": "NE 18th and Highland",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.441818,
+          35.489846
+        ]
+      },
+      "properties": {
+        "id": "o164",
+        "city": "Oklahoma City",
+        "description": "NE 19th and Sunnylane",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.61026,
+          35.407188
+        ]
+      },
+      "properties": {
+        "id": "o165",
+        "city": "Oklahoma City",
+        "description": "Hercules and Will Rogers",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.619834,
+          35.400126
+        ]
+      },
+      "properties": {
+        "id": "o166",
+        "city": "Oklahoma City",
+        "description": "SW 63rd and FAA Driveway",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.501122,
+          35.511403
+        ]
+      },
+      "properties": {
+        "id": "o167",
+        "city": "Oklahoma City",
+        "description": "39th and Lindsay",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.597282,
+          35.503351
+        ]
+      },
+      "properties": {
+        "id": "o168",
+        "city": "Oklahoma City",
+        "description": "Geraldine and 31st",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.506051,
+          35.491201
+        ]
+      },
+      "properties": {
+        "id": "o169",
+        "city": "Oklahoma City",
+        "description": "21st and Stiles",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.621344,
+          35.488439
+        ]
+      },
+      "properties": {
+        "id": "o170",
+        "city": "Oklahoma City",
+        "description": "Lela and NW 16th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.430454,
+          35.410037
+        ]
+      },
+      "properties": {
+        "id": "o171",
+        "city": "Oklahoma City",
+        "description": "Mackleman and 55th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.503388,
+          35.366962
+        ]
+      },
+      "properties": {
+        "id": "m01",
+        "city": "Moore",
+        "description": "Median of Shields Blvd S of Cass St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.477622,
+          35.363417
+        ]
+      },
+      "properties": {
+        "id": "m02",
+        "city": "Moore",
+        "description": "West of intersection",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.501779,
+          35.356463
+        ]
+      },
+      "properties": {
+        "id": "m03",
+        "city": "Moore",
+        "description": "IFO 705 NW 20th St, near MPS/Kelly Elementary",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.486046,
+          35.356093
+        ]
+      },
+      "properties": {
+        "id": "m04",
+        "city": "Moore",
+        "description": "Next to 2102 N Nail Pkwy",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.467899,
+          35.354395
+        ]
+      },
+      "properties": {
+        "id": "m05",
+        "city": "Moore",
+        "description": "Behind house, 1900-blk E Hills Dr in Buck Thomas Park",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.519076,
+          35.343428
+        ]
+      },
+      "properties": {
+        "id": "m06",
+        "city": "Moore",
+        "description": "1300-blk NW 7th Pl, Greenbriar Park",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.504996,
+          35.341562
+        ]
+      },
+      "properties": {
+        "id": "m07",
+        "city": "Moore",
+        "description": "MPS/Southgate-Rippetoe Elementary",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.487328,
+          35.341489
+        ]
+      },
+      "properties": {
+        "id": "m08",
+        "city": "Moore",
+        "description": "301 N Broadway St, Moore City Hall",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.470287,
+          35.34139
+        ]
+      },
+      "properties": {
+        "id": "m09",
+        "city": "Moore",
+        "description": "Behind house at 321 N English Dr, MPS/MHS baseball diamond",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.450249,
+          35.333998
+        ]
+      },
+      "properties": {
+        "id": "m10",
+        "city": "Moore",
+        "description": "~2400 SE 4th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.447501,
+          35.347203
+        ]
+      },
+      "properties": {
+        "id": "m11",
+        "city": "Moore",
+        "description": "South of ~3400 NE 12th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.506952,
+          35.326942
+        ]
+      },
+      "properties": {
+        "id": "m12",
+        "city": "Moore",
+        "description": "1852 SW 11th St, MPS/Plaza Towers Elementary",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.486478,
+          35.326232
+        ]
+      },
+      "properties": {
+        "id": "m13",
+        "city": "Moore",
+        "description": "Moore Farmers Market Pavillion",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.469761,
+          35.325569
+        ]
+      },
+      "properties": {
+        "id": "m14",
+        "city": "Moore",
+        "description": "1101 SE 14th St, MPS/Apple Creek Elementary",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.511856,
+          35.312644
+        ]
+      },
+      "properties": {
+        "id": "m15",
+        "city": "Moore",
+        "description": "~2500 S Santa Fe Ave, MPS/Southmoore HS",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.494662,
+          35.312368
+        ]
+      },
+      "properties": {
+        "id": "m16",
+        "city": "Moore",
+        "description": "~2600 S Telephone Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.475409,
+          35.312641
+        ]
+      },
+      "properties": {
+        "id": "m17",
+        "city": "Moore",
+        "description": "2610 S Broadway Ave, First Indian Baptist Church",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.455683,
+          35.319889
+        ]
+      },
+      "properties": {
+        "id": "m18",
+        "city": "Moore",
+        "description": "~2219 SE 19th St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.494222,
+          35.301398
+        ]
+      },
+      "properties": {
+        "id": "m19",
+        "city": "Moore",
+        "description": "~4300 S Telephone Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47216,
+          35.30544
+        ]
+      },
+      "properties": {
+        "id": "m20",
+        "city": "Moore",
+        "description": "300 SW 34th St, MPS/Broadmoore Elementary",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.441135,
+          35.305875
+        ]
+      },
+      "properties": {
+        "id": "m21",
+        "city": "Moore",
+        "description": "N of intersection, near MPS/Timber Creek Elementary",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.42434,
+          35.30499
+        ]
+      },
+      "properties": {
+        "id": "m22",
+        "city": "Moore",
+        "description": "W of intersection, near Royal Bavaria",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.490996,
+          35.35363
+        ]
+      },
+      "properties": {
+        "id": "m23",
+        "city": "Moore",
+        "description": "~300 NE 19th St, near MPS/Northmoore Elementary",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.514144,
+          35.347348
+        ]
+      },
+      "properties": {
+        "id": "m24",
+        "city": "Moore",
+        "description": "Near water well behind Taco Bueno on N Santa Fe Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.500372,
+          35.349859
+        ]
+      },
+      "properties": {
+        "id": "m25",
+        "city": "Moore",
+        "description": "725 NW 12th St, Behind MFD Station 2",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.479214,
+          35.350598
+        ]
+      },
+      "properties": {
+        "id": "m26",
+        "city": "Moore",
+        "description": "~1500 Flicker Ridge behind Crest Foods",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.475465,
+          35.341523
+        ]
+      },
+      "properties": {
+        "id": "m27",
+        "city": "Moore",
+        "description": "MPS/Moore HS Performing Arts Center",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.497689,
+          35.334145
+        ]
+      },
+      "properties": {
+        "id": "m28",
+        "city": "Moore",
+        "description": "Entrance to Tom Strouhal Little River Park",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.468061,
+          35.330858
+        ]
+      },
+      "properties": {
+        "id": "m29",
+        "city": "Moore",
+        "description": "Behind 1301 SE 8th St, MPS/Highland East Jr HS",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.511781,
+          35.321634
+        ]
+      },
+      "properties": {
+        "id": "m30",
+        "city": "Moore",
+        "description": "1800 block S Santa Fe Ave next to Subway",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.494637,
+          35.323971
+        ]
+      },
+      "properties": {
+        "id": "m31",
+        "city": "Moore",
+        "description": "Next to convenience store",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.477412,
+          35.321287
+        ]
+      },
+      "properties": {
+        "id": "m32",
+        "city": "Moore",
+        "description": "1805 S Eastern Ave, EMSSTAT STATION",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.462005,
+          35.305194
+        ]
+      },
+      "properties": {
+        "id": "m33",
+        "city": "Moore",
+        "description": "W of intersection",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.451108,
+          35.3053
+        ]
+      },
+      "properties": {
+        "id": "m34",
+        "city": "Moore",
+        "description": "1999 SW 34TH ST, MPS/Oakridge Elementary",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.471647,
+          35.298406
+        ]
+      },
+      "properties": {
+        "id": "m35",
+        "city": "Moore",
+        "description": "4501 Apple Estates Dr, Apple Valley Park",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.425191,
+          35.298001
+        ]
+      },
+      "properties": {
+        "id": "m36",
+        "city": "Moore",
+        "description": "~4205 VISTA DR, S of intersection",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.46112,
+          35.363221
+        ]
+      },
+      "properties": {
+        "id": "m37",
+        "city": "Moore",
+        "description": "1901 NE 27TH ST",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.458016,
+          35.349697
+        ]
+      },
+      "properties": {
+        "id": "m38",
+        "city": "Moore",
+        "description": "1450 N Bryant Ave, MFD Station 4",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.482176,
+          35.305151
+        ]
+      },
+      "properties": {
+        "id": "m39",
+        "city": "Moore",
+        "description": "1000 SW 34th St, along RR right of way",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.460505,
+          35.333419
+        ]
+      },
+      "properties": {
+        "id": "m40",
+        "city": "Moore",
+        "description": "501 S BRYANT, Veterans Memorial Park",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4969821,
+          35.3052697
+        ]
+      },
+      "properties": {
+        "id": "m41",
+        "city": "Moore",
+        "description": "~1599 SW 34th St, Arbor Gardens Park",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.491136,
+          35.36318
+        ]
+      },
+      "properties": {
+        "id": "m42",
+        "city": "Moore",
+        "description": "NE 27th & Highland Dr",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.475523,
+          35.334775
+        ]
+      },
+      "properties": {
+        "id": "m43",
+        "city": "Moore",
+        "description": "SE 4th & Eastern",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.503175,
+          35.350598
+        ]
+      },
+      "properties": {
+        "id": "m44",
+        "city": "Moore",
+        "description": "Parmele Park",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.530183,
+          35.27664
+        ]
+      },
+      "properties": {
+        "id": "n01",
+        "city": "Norman",
+        "description": "NW Corner - Franklin & 60th NW",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.540888,
+          35.247258
+        ]
+      },
+      "properties": {
+        "id": "n02",
+        "city": "Norman",
+        "description": "~6730 W Rock Creek Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.518087,
+          35.220937
+        ]
+      },
+      "properties": {
+        "id": "n03",
+        "city": "Norman",
+        "description": "Kevin Gotshall Memorial Park",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.48876,
+          35.21185
+        ]
+      },
+      "properties": {
+        "id": "n04",
+        "city": "Norman",
+        "description": "~3380 Willowbend Dr behind Bed, Bath, & Beyond",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.504742,
+          35.261477
+        ]
+      },
+      "properties": {
+        "id": "n05",
+        "city": "Norman",
+        "description": "NPS/Roosevelt Elementary",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.500694,
+          35.240718
+        ]
+      },
+      "properties": {
+        "id": "n06",
+        "city": "Norman",
+        "description": "Brookhaven Park",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.487104,
+          35.220861
+        ]
+      },
+      "properties": {
+        "id": "n07",
+        "city": "Norman",
+        "description": "Sooner Fashion Mall/Safety Town/Red Lobster",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.467573,
+          35.199223
+        ]
+      },
+      "properties": {
+        "id": "n08",
+        "city": "Norman",
+        "description": "NPS/Monroe Elementary",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.441509,
+          35.17773
+        ]
+      },
+      "properties": {
+        "id": "n09",
+        "city": "Norman",
+        "description": "Norman Animal Welfare",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.483499,
+          35.284414
+        ]
+      },
+      "properties": {
+        "id": "n10",
+        "city": "Norman",
+        "description": "Woodspring Suites Hotel",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.454685,
+          35.220862
+        ]
+      },
+      "properties": {
+        "id": "n11",
+        "city": "Norman",
+        "description": "NPS/Norman High Ag Sciences Bldg",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.476648,
+          35.263822
+        ]
+      },
+      "properties": {
+        "id": "n12",
+        "city": "Norman",
+        "description": "East Entrance, Guard & Reserve Facility",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.483367,
+          35.244842
+        ]
+      },
+      "properties": {
+        "id": "n13",
+        "city": "Norman",
+        "description": "Holiday Inn Express/Embassy Suites",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.427789,
+          35.171672
+        ]
+      },
+      "properties": {
+        "id": "n14",
+        "city": "Norman",
+        "description": "Eagle Cliff Park",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.438797,
+          35.193648
+        ]
+      },
+      "properties": {
+        "id": "n15",
+        "city": "Norman",
+        "description": "Reaves Park",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.418401,
+          35.209487
+        ]
+      },
+      "properties": {
+        "id": "n16",
+        "city": "Norman",
+        "description": "NPS/Kennedy Elementary",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.404216,
+          35.189734
+        ]
+      },
+      "properties": {
+        "id": "n17",
+        "city": "Norman",
+        "description": "Crosslands Rental",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.429403,
+          35.23464
+        ]
+      },
+      "properties": {
+        "id": "n18",
+        "city": "Norman",
+        "description": "Griffin Community Park (near Silos)",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.450165,
+          35.2459
+        ]
+      },
+      "properties": {
+        "id": "n19",
+        "city": "Norman",
+        "description": "NPS/Norman North HS / USPS Maintenance Center",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.454968,
+          35.276209
+        ]
+      },
+      "properties": {
+        "id": "n20",
+        "city": "Norman",
+        "description": "Moore-Norman Technology Center",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.388383,
+          35.170413
+        ]
+      },
+      "properties": {
+        "id": "n21",
+        "city": "Norman",
+        "description": "~4030 36th Ave SE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.371483,
+          35.174898
+        ]
+      },
+      "properties": {
+        "id": "n22",
+        "city": "Norman",
+        "description": "~4700 E Cedar Ln",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.388274,
+          35.199684
+        ]
+      },
+      "properties": {
+        "id": "n23",
+        "city": "Norman",
+        "description": "Grand Canyon Dr & 36th Ave SE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.370566,
+          35.228238
+        ]
+      },
+      "properties": {
+        "id": "n24",
+        "city": "Norman",
+        "description": "~860 48th Ave NE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.405894,
+          35.233767
+        ]
+      },
+      "properties": {
+        "id": "n25",
+        "city": "Norman",
+        "description": "Just north of E Robinson St / JD McCarty Center",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.423834,
+          35.254006
+        ]
+      },
+      "properties": {
+        "id": "n26",
+        "city": "Norman",
+        "description": "SW Corner",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.423974,
+          35.27801
+        ]
+      },
+      "properties": {
+        "id": "n27",
+        "city": "Norman",
+        "description": "~4675 12th Ave NE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.388552,
+          35.255655
+        ]
+      },
+      "properties": {
+        "id": "n28",
+        "city": "Norman",
+        "description": "~3250 36th Ave NE / cellular tower",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.370487,
+          35.247145
+        ]
+      },
+      "properties": {
+        "id": "n29",
+        "city": "Norman",
+        "description": "SE Corner - Rock Creek & 48th NE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.388377,
+          35.276713
+        ]
+      },
+      "properties": {
+        "id": "n30",
+        "city": "Norman",
+        "description": "NE Corner - Franklin & 36th NE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.353162,
+          35.277199
+        ]
+      },
+      "properties": {
+        "id": "n31",
+        "city": "Norman",
+        "description": "At Little River - Franklin & 60th NE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.319087,
+          35.290636
+        ]
+      },
+      "properties": {
+        "id": "n32",
+        "city": "Norman",
+        "description": "~8300 E Indian Hills Ave (SE 179th St)",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.317974,
+          35.271004
+        ]
+      },
+      "properties": {
+        "id": "n33",
+        "city": "Norman",
+        "description": "At Benny Bruce St / city water well",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.335586,
+          35.246017
+        ]
+      },
+      "properties": {
+        "id": "n34",
+        "city": "Norman",
+        "description": "(S Westminster Rd) - Rock Creek & 72nd NE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.346732,
+          35.218408
+        ]
+      },
+      "properties": {
+        "id": "n35",
+        "city": "Norman",
+        "description": "About 6405 E Alameda St",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.35312,
+          35.198943
+        ]
+      },
+      "properties": {
+        "id": "n36",
+        "city": "Norman",
+        "description": "60th Ave SE at Hideaway Hollow Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.335518,
+          35.164568
+        ]
+      },
+      "properties": {
+        "id": "n37",
+        "city": "Norman",
+        "description": "72nd Ave NE near Blackfoot Dr",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.314758,
+          35.160404
+        ]
+      },
+      "properties": {
+        "id": "n38",
+        "city": "Norman",
+        "description": "~8450 E Post Oak Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.286841,
+          35.160308
+        ]
+      },
+      "properties": {
+        "id": "n39",
+        "city": "Norman",
+        "description": "~10500 E Post Oak Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.300469,
+          35.181382
+        ]
+      },
+      "properties": {
+        "id": "n40",
+        "city": "Norman",
+        "description": "~3400 96th Ave SE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.317903,
+          35.190936
+        ]
+      },
+      "properties": {
+        "id": "n41",
+        "city": "Norman",
+        "description": "~2200 84th Ave SE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.318192,
+          35.222034
+        ]
+      },
+      "properties": {
+        "id": "n42",
+        "city": "Norman",
+        "description": "South of intersection - Alameda & 84th NE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.300435,
+          35.251703
+        ]
+      },
+      "properties": {
+        "id": "n43",
+        "city": "Norman",
+        "description": "~2800 96th Ave NE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.291774,
+          35.304966
+        ]
+      },
+      "properties": {
+        "id": "n44",
+        "city": "Norman",
+        "description": "10106 E Bethel Rd (SE 164th St)",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.258254,
+          35.310298
+        ]
+      },
+      "properties": {
+        "id": "n45",
+        "city": "Norman",
+        "description": "~7800 Lett Cir",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.238229,
+          35.333714
+        ]
+      },
+      "properties": {
+        "id": "n46",
+        "city": "Norman",
+        "description": "~13920 E Deer Creek Rd (SE 134th St)",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.229045,
+          35.30462
+        ]
+      },
+      "properties": {
+        "id": "n47",
+        "city": "Norman",
+        "description": "East of intersection",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.259033,
+          35.290294
+        ]
+      },
+      "properties": {
+        "id": "n48",
+        "city": "Norman",
+        "description": "~12194 E Indian Hills Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.280952,
+          35.276203
+        ]
+      },
+      "properties": {
+        "id": "n49",
+        "city": "Norman",
+        "description": "East of intersection",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.282827,
+          35.233565
+        ]
+      },
+      "properties": {
+        "id": "n50",
+        "city": "Norman",
+        "description": "North of intersection",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.23873,
+          35.236981
+        ]
+      },
+      "properties": {
+        "id": "n51",
+        "city": "Norman",
+        "description": "State Park: Indian Point Dr and BoatHouse Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.256309,
+          35.261424
+        ]
+      },
+      "properties": {
+        "id": "n52",
+        "city": "Norman",
+        "description": "At Isim Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.273788,
+          35.247129
+        ]
+      },
+      "properties": {
+        "id": "n53",
+        "city": "Norman",
+        "description": "~11401 E Rock Creek Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.287246,
+          35.203761
+        ]
+      },
+      "properties": {
+        "id": "n54",
+        "city": "Norman",
+        "description": "Near Native Spirits Winery",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.247112,
+          35.212661
+        ]
+      },
+      "properties": {
+        "id": "n55",
+        "city": "Norman",
+        "description": "State Park: Little River State Park Dr and Calypso Cove Dr",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.265192,
+          35.183769
+        ]
+      },
+      "properties": {
+        "id": "n56",
+        "city": "Norman",
+        "description": "~2600 120th Ave SE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.247623,
+          35.153383
+        ]
+      },
+      "properties": {
+        "id": "n57",
+        "city": "Norman",
+        "description": "~5400 132nd Ave SE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.247626,
+          35.18272
+        ]
+      },
+      "properties": {
+        "id": "n58",
+        "city": "Norman",
+        "description": "At Norris Cir",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.223921,
+          35.213839
+        ]
+      },
+      "properties": {
+        "id": "n59",
+        "city": "Norman",
+        "description": "State Park: At campground",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.212592,
+          35.189515
+        ]
+      },
+      "properties": {
+        "id": "n60",
+        "city": "Norman",
+        "description": "~2101 156th Ave SE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.177368,
+          35.197721
+        ]
+      },
+      "properties": {
+        "id": "n61",
+        "city": "Norman",
+        "description": "~2372 180th Ave SE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.193472,
+          35.217561
+        ]
+      },
+      "properties": {
+        "id": "n62",
+        "city": "Norman",
+        "description": "East of intersection - Alameda & 168th NE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.207726,
+          35.231891
+        ]
+      },
+      "properties": {
+        "id": "n63",
+        "city": "Norman",
+        "description": "State Park: At campground on Little Axe Dr",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.192855,
+          35.24676
+        ]
+      },
+      "properties": {
+        "id": "n64",
+        "city": "Norman",
+        "description": "East of intersection - Rock Creek & 168th NE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.212311,
+          35.258991
+        ]
+      },
+      "properties": {
+        "id": "n65",
+        "city": "Norman",
+        "description": "South of intersection - Tecumseh & 156th NE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.190202,
+          35.27547
+        ]
+      },
+      "properties": {
+        "id": "n66",
+        "city": "Norman",
+        "description": "East of intersection - Franklin & 168th NE",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.229863,
+          35.283246
+        ]
+      },
+      "properties": {
+        "id": "n67",
+        "city": "Norman",
+        "description": "North of intersection at end of gravel road",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.445761,
+          35.200209
+        ]
+      },
+      "properties": {
+        "id": "n68",
+        "city": "Norman",
+        "description": "OU Couch Cafeteria Roof",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.484079,
+          35.259152
+        ]
+      },
+      "properties": {
+        "id": "n69",
+        "city": "Norman",
+        "description": "I-35 and Tecumseh - Southwestern Wire",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.617936,
+          35.290497
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Newcastle",
+        "description": "State Highway 37 and North Country Club",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.601016,
+          35.262036
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Newcastle",
+        "description": "Northwest 16th Street and Main Street",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.617711,
+          35.233603
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Newcastle",
+        "description": "Southwest 16th Street and Country Club",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.653202,
+          35.232828
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Newcastle",
+        "description": "Highway 76 and SW 16th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.547582,
+          35.186431
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Newcastle",
+        "description": "4200 South Pennsylvania",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.520781,
+          35.18225
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Newcastle",
+        "description": "Station 2, 4305 SE 44th",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6563459,
+          35.2752097
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Newcastle",
+        "description": "NW 24th & Council",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5825,
+          35.232028
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Newcastle",
+        "description": "SE 16th & Portland",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5828875,
+          35.2039011
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Newcastle",
+        "description": "SE 32nd & Portland",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.395608,
+          35.140439
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Noble",
+        "description": "Downtown Fire Station",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.378577,
+          35.132345
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Noble",
+        "description": "South Water Tower",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.379832,
+          35.148468
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Noble",
+        "description": "North Water Tower",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.397911,
+          35.131714
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Noble",
+        "description": "Musgrave Field",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.397995,
+          35.152715
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Noble",
+        "description": "Movie Gallery Building",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.353342,
+          35.139126
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Noble",
+        "description": "Fire Station #2 - 101 S. 60th Ave",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.326699,
+          35.136893
+        ]
+      },
+      "properties": {
+        "id": "",
+        "city": "Noble",
+        "description": "200 Reese Rd",
+        "spl_at_30m": 123,
+        "frequency_hz": 500
+      }
+    }
+  ]
+}
